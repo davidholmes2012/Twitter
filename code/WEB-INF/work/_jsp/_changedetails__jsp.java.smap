@@ -1,0 +1,17 @@
+SMAP
+_changedetails__jsp.java
+JSP
+*S JSP
+*F
++ 1 header.jsp
+header.jsp
++ 2 changeDetails.jsp
+changeDetails.jsp
+*L
+1#1:55
+5#1,7:56
+1#2,10:63
+10#2:73
+31#2:74,2
+57#2:76
+*E

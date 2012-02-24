@@ -1,0 +1,46 @@
+﻿p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #000080;
+}
+form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #6666FF;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	font-style: normal;
+	font-variant: normal;
+	color: #0000CC;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: larger;
+	font-weight: lighter;
+	font-variant: normal;
+	text-transform: none;
+	color: #0066FF;
+}
+a {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: large;
+	color: #000066;
+}
+body {
+	background-color: #FFFFCC;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: bold;
+}
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-variant: normal;
+	table-layout: auto;
+	color: #0000FF;
+}

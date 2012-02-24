@@ -1,0 +1,129 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" version="2.4"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http:/java.sun.com/dtd/web-app_2_3.dtd">
+  <servlet>
+    <servlet-name>loginscript</servlet-name>
+    <servlet-class>twitter.loginscript
+	</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>loginscript</servlet-name>
+    <url-pattern>/loginscript</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>registerVerify</servlet-name>
+    <servlet-class>twitter.registerVerify
+	</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>registerVerify</servlet-name>
+    <url-pattern>/registerVerify</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>insert</servlet-name>
+    <servlet-class>twitter.insert
+	</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>insert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  
+       <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>twitter.logout
+	</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+         <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>twitter.search
+	</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  
+  
+           <servlet>
+    <servlet-name>addFreind</servlet-name>
+    <servlet-class>twitter.addFreind</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>addFreind</servlet-name>
+    <url-pattern>/addFreind</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+             <servlet>
+    <servlet-name>post</servlet-name>
+    <servlet-class>twitter.post</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>post</servlet-name>
+    <url-pattern>/post</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+     <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>twitter.delete</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>deletePost</servlet-name>
+    <servlet-class>twitter.deletePost</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>deletePost</servlet-name>
+    <url-pattern>/deletePost</url-pattern>
+  </servlet-mapping>
+  
+  
+     <servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>twitter.update</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>admin</servlet-name>
+    <servlet-class>twitter.admin</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>admin</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
