@@ -23,16 +23,7 @@
     <url-pattern>/registerVerify</url-pattern>
   </servlet-mapping>
   
-      <servlet>
-    <servlet-name>insert</servlet-name>
-    <servlet-class>twitter.insert
-	</servlet-class>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>insert</servlet-name>
-    <url-pattern>/insert</url-pattern>
-  </servlet-mapping>
+     
   
        <servlet>
     <servlet-name>logout</servlet-name>
@@ -45,16 +36,7 @@
     <url-pattern>/logout</url-pattern>
   </servlet-mapping>
   
-         <servlet>
-    <servlet-name>search</servlet-name>
-    <servlet-class>twitter.search
-	</servlet-class>
-  </servlet>
 
-  <servlet-mapping>
-    <servlet-name>search</servlet-name>
-    <url-pattern>/search</url-pattern>
-  </servlet-mapping>
   
   
            <servlet>
